@@ -1,6 +1,6 @@
 # WorkSpace
 ## Linux
-<img src="./picture/screenfetch.png" style="margin:5%;" />
+<img class="img-center" src="./picture/screenfetch.png"/>
 
       - sudo pacman -Syyu
       - sudo vim /etc/default/grub { 5 > 1 }
