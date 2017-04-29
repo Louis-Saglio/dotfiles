@@ -1,6 +1,6 @@
 # WorkSpace
 ## Linux
-![img](./picture/screenfetch.png)
+<img src="./picture/screenfetch.png" style="margin:5%;" />
 
       - sudo pacman -Syyu
       - sudo vim /etc/default/grub { 5 > 1 }
@@ -30,7 +30,7 @@
 ## Zsh && OhMyZsh
      - sudo pacman -S Zsh
      - sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-     
+
 ## Vim
      - sudo pacman -S vim
      - echo "set nu" >> ~/.vimrc
