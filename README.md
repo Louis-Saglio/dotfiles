@@ -1,24 +1,7 @@
 # WorkSpace
 ## Linux
      - Manjaro x86_64 (Gnome Edition)
-
-  ██████████████████  ████████     deskainy@Desk
-  ██████████████████  ████████     OS: Manjaro 17.0.1 Gellivara
-  ██████████████████  ████████     Kernel: x86_64 Linux 4.9.24-1-MANJARO
-  ██████████████████  ████████     Uptime: 15m
-  ████████            ████████     Packages: 1021
-  ████████  ████████  ████████     Shell:
-  ████████  ████████  ████████     Resolution: 1920x1080
-  ████████  ████████  ████████     DE: GNOME
-  ████████  ████████  ████████     WM: GNOME Shell
-  ████████  ████████  ████████     WM Theme: Human
-  ████████  ████████  ████████     GTK Theme: Arc-Maia-Darker [GTK2/3]
-  ████████  ████████  ████████     Icon Theme: Arc-Maia
-  ████████  ████████  ████████     Font: Verdana Bold 11
-  ████████  ████████  ████████     CPU: Intel Core i7-6700HQ @ 8x 2.5GHz
-                                   GPU: Quadro M1000M
-                                   RAM: 1801MiB / 40024MiB
-    - 
+     - <img src="picture/screenfetch.png"></img>
 
 ## Terminal
      - sudo pacman -S Guake
