@@ -2,6 +2,9 @@
 ## Linux
 ![img](./picture/screenfetch.png)
 
+      - sudo pacman -Syyu
+      - sudo vim /etc/default/grub { 5 > 1 }
+
 ## Terminal
      - sudo pacman -S Guake
 ### { Police }
@@ -26,7 +29,8 @@
      - #C5C8C6
 ## Zsh && OhMyZsh
      - sudo pacman -S Zsh
-     - h
+     - sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+     
 ## Vim
      - sudo pacman -S vim
      - echo "set nu" >> ~/.vimrc
