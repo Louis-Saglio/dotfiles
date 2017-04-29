@@ -1,7 +1,7 @@
 # WorkSpace
 ## Linux
      - Manjaro x86_64 (Gnome Edition)
-     - <img src="picture/screenfetch.png"></img>
+     - ![img](./picture/screenfetch.png)
 
 ## Terminal
      - sudo pacman -S Guake
