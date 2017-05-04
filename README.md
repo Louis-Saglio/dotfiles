@@ -1,12 +1,13 @@
 # WorkSpace
 ## Linux
-<img class="img-center" src="./picture/screenfetch.png"/>
+![img](./picture/screenfetch.png)
 
-      - sudo pacman -Syyu
-      - sudo vim /etc/default/grub { 5 > 1 }
+      > sudo pacman -Syyu
+      > sudo vim /etc/default/grub { 5 > 1 }
 
 ## Terminal
-     - sudo pacman -S Guake
+     > sudo pacman -S Guake
+
 ### { Police }
      - Police (Droid Sans Mono 13)
 ### { Color L1 }
@@ -28,12 +29,12 @@
      - #8ABEB7
      - #C5C8C6
 ## Zsh && OhMyZsh
-     - sudo pacman -S Zsh
-     - sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+     > sudo pacman -S Zsh
+     > sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 ## Vim
-     - sudo pacman -S vim
-     - echo "set nu" >> ~/.vimrc
+     > sudo pacman -S vim
+     > echo "set nu" >> ~/.vimrc
 
-## Space-Vim
-     - sh -c "$(curl -fsSL https://raw.githubusercontent.com/liuchengxu/space-vim/master/install.sh)"
+### Space-Vim
+     > sh -c "$(curl -fsSL https://raw.githubusercontent.com/liuchengxu/space-vim/master/install.sh)"
