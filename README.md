@@ -5,7 +5,11 @@
 
 > sudo pacman -Syyu
 
-> sudo vim /etc/default/grub { 5 > 1 }
+> sudo vim /etc/default/grub
+
+> :%s/GRUB_TIMEOUT=5/GRUB_TIMEOUT=1
+
+> sudo update-grub
 
 ## Terminal
 > sudo pacman -S Guake
