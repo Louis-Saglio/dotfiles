@@ -1,4 +1,5 @@
 # WorkSpace
+
 ## Linux
 ![img](./picture/screenfetch.png)
 
@@ -9,8 +10,11 @@
 ## Terminal
 > sudo pacman -S Guake
 
+## police 
+
 ### { Police }
      - Police (Droid Sans Mono 13)
+
 ### { Color L1 }
      -   #282A2E
      -   #A54242
@@ -31,13 +35,8 @@
      -   #8ABEB7
      -   #C5C8C6
 
-## Zsh && OhMyZsh
-    > sudo pacman -S Zsh
+## OhMyZsh
     > sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
-## Vim
-    > sudo pacman -S vim
-    > echo "set nu" >> ~/.vimrc
 
 ### Space-Vim
     > sh -c "$(curl -fsSL https://raw.githubusercontent.com/liuchengxu/space-vim/master/install.sh)"
