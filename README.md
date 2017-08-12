@@ -12,7 +12,7 @@
 > sudo update-grub
 
 ## Terminal
-> sudo pacman -S Guake
+> sudo pacman -S < ./home/env/pacman.out
 
 ## police 
 
