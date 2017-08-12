@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Language="en-US" Id="azure-functions-tools" Version="0.3.0" Publisher="johnpapa"/>
+    <DisplayName>Azure Functions Tools</DisplayName>
+    <Description xml:space="preserve">Azure Functions JSON Intellisense for VS Code</Description>
+    <Tags>Azure,Azure Functions,JavaScript,Node,Node.js,snippet,json</Tags>
+    <Categories>Other</Categories>
+    <GalleryFlags>Public</GalleryFlags>
+    <Badges></Badges>
+    <Properties>
+      <Property Id="Microsoft.VisualStudio.Code.Engine" Value="^1.10.0" />
+      <Property Id="Microsoft.VisualStudio.Code.ExtensionDependencies" Value="" />
+      
+        <Property Id="Microsoft.VisualStudio.Services.Links.Source" Value="git+https://github.com/johnpapa/vscode-azure-functions-tools.git" />
+        <Property Id="Microsoft.VisualStudio.Services.Links.Getstarted" Value="git+https://github.com/johnpapa/vscode-azure-functions-tools.git" />
+        
+          <Property Id="Microsoft.VisualStudio.Services.Links.Repository" Value="git+https://github.com/johnpapa/vscode-azure-functions-tools.git" />
+        
+      
+      <Property Id="Microsoft.VisualStudio.Services.Links.Support" Value="https://github.com/johnpapa/vscode-azure-functions-tools/issues" />
+      <Property Id="Microsoft.VisualStudio.Services.Links.Learn" Value="https://github.com/johnpapa/vscode-azure-functions-tools#readme" />
+      <Property Id="Microsoft.VisualStudio.Services.Branding.Color" Value="#0273D4" />
+      <Property Id="Microsoft.VisualStudio.Services.Branding.Theme" Value="dark" />
+      <Property Id="Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown" Value="true" />
+      <Property Id="Microsoft.VisualStudio.Services.EnableMarketplaceQnA" Value="true" />
+      
+    </Properties>
+    <License>extension/LICENSE.md</License>
+    <Icon>extension/images/azure-functions-logo-128.jpg</Icon>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Code"/>
+  </Installation>
+  <Dependencies/>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.Code.Manifest" Path="extension/package.json" Addressable="true" />
+    <Asset Type="Microsoft.VisualStudio.Services.Content.Details" Path="extension/README.md" Addressable="true" /><Asset Type="Microsoft.VisualStudio.Services.Content.Changelog" Path="extension/CHANGELOG.md" Addressable="true" /><Asset Type="Microsoft.VisualStudio.Services.Content.License" Path="extension/LICENSE.md" Addressable="true" /><Asset Type="Microsoft.VisualStudio.Services.Icons.Default" Path="extension/images/azure-functions-logo-128.jpg" Addressable="true" />
+  </Assets>
+</PackageManifest>
