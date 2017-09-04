@@ -51,7 +51,7 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git sudo)
+plugins=(git sudo django pip yarn Composer archlinux coffe docker docker-compose encode64 github node pylint)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -83,9 +83,23 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+# Commande utile
 alias f="fuck"
 alias rkey="gpg --recv-key"
 alias ll="exa -laigbuhH"
+#Mes alias git
+alias g="git"
+alias gp="git add"
+alias gm="git rm"
+alias gs="git status"
+alias gc="git commit"
+alias gb="git branch"
+alias grb="git branch -D"
+alias gdb="grb"
+alias gco="git checkout"
+alias gpl="git pull"
+#troll command
+alias old="espeak 'Hello darkness, my old friend, I ve come to talk with you again' "  
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
