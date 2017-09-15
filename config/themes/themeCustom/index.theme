@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=themeCustom
+Type=X-GNOME-Metatheme
+Comment=themeCustom
+
+[X-GNOME-Metatheme]
+GtkTheme=Eclipsed
+MetacityTheme=Arc-Darker
+IconTheme=Arc
+GtkColorScheme=menu_bg: #383c4a
+CursorTheme=mate
+CursorSize=24
+NotificationTheme=standard
+BackgroundImage=/home/desk/Images/wallpaper/téléchargement.jpg

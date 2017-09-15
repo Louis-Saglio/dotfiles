@@ -1,0 +1,19 @@
+! =================
+! rofi
+! =================
+#define background #075B76
+#define text       #ec720d
+#define active     #075B76
+
+rofi.fullscreen:        true
+rofi.color-enabled:		  true
+rofi.separator-style: 	solid
+rofi.color-window:      argb:e81d1d26, active, active
+rofi.color-normal:      argb:0baa263, #eee8d5, argb:01d1d26, argb:01d1d26, text
+rofi.color-active:      active, background, active, active, background
+rofi.color-urgent:      #fdf6e3, #dc322f, #eee8d5, #dc322f, #fdf6e3
+rofi.font:				      "SFNS Display" medium 16
+rofi.bw:                0
+rofi.padding:           200
+rofi.hide-scrollbar:    true
+rofi.lines:             15

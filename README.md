@@ -1,46 +1,59 @@
-# WorkSpace
+# Mon environement de travail
+<h1>ScreenFetch</h1>
+<img src="picture/screenfetch.png" alt="screenfetch"/>
+<br>
+<h1>Desktop</h1>
+<img src="picture/desktop.png" alt="desktop"/>
+<hr/>
 
-## Linux
-![img](./picture/screenfetch.png)
+## Installation
+> Installer git ou télécharger l'archive.
+## Par Archive 
+```bash
+# Download archive
+wget https://github.com/dorianWilhelm/dotfiles/archive/master.zip
+# unzip archive
+unzip master.zip
+cd dotfiles-master
+# give privilage execution
+chmod +x install.sh
+# execute the script
+./install.sh
+```
+<hr>
+## Par Git
 
-> sudo pacman -Syyu
+### -   https
 
-> sudo vim /etc/default/grub
+```bash
+# clone the repository
+git clone https://github.com/dorianWilhelm/dotfiles.git
+cd dotfiles-master
+# give privilage execution
+chmod +x install.sh
+# execute the script
+./install.sh
+```
 
-> :%s/GRUB_TIMEOUT=5/GRUB_TIMEOUT=1
+### -   Ssh
+```bash
+# clone the repository
+git clone git@github.com:dorianWilhelm/dotfiles.git
+cd dotfiles-master
+# give privilage execution
+chmod +x install.sh
+# execute the script
+./install.sh
+```
 
-> sudo update-grub
+---
+## informations
+```text
+    Script d'installation créé sous Archlinux, utilisant mate-desktop and gdm.
 
-## Terminal
-> sudo pacman -S < ./home/env/pacman.out
+    N'utilisez pas ce script, si vous n'etes pas sous Archlinux utilisant mate-desktop et gdm cela risque de faire bugger votre système d'exploitation.
+```
 
-## police 
-
-### { Police }
-     - Police (Droid Sans Mono 13)
-
-### { Color L1 }
-     -   #282A2E
-     -   #A54242
-     -   #8C9440
-     -   #DE935F
-     -   #5F819D
-     -   #85678F
-     -   #5E8D87
-     -   #707880
-
-###  { Color L2 }
-     -   #373B41
-     -   #CC6666
-     -   #B5BD68
-     -   #F0C674
-     -   #81A2BE
-     -   #B294BB
-     -   #8ABEB7
-     -   #C5C8C6
-
-## OhMyZsh
-    > sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
-### Space-Vim
-    > sh -c "$(curl -fsSL https://raw.githubusercontent.com/liuchengxu/space-vim/master/install.sh)"
+```text
+    Se script va nettoyer les fichiers et redemarrer votre ordinateur à la fin de sont installation.
+```
