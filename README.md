@@ -21,6 +21,7 @@ chmod +x install.sh
 ./install.sh
 ```
 <hr>
+
 ## Par Git
 
 ### -   https
@@ -49,9 +50,10 @@ chmod +x install.sh
 ---
 ## informations
 ```text
-    Script d'installation créé sous Archlinux, utilisant mate-desktop and gdm.
+    Script d'installation créé sous Archlinux, utilisant mate-desktop et gdm.
 
-    N'utilisez pas ce script, si vous n'etes pas sous Archlinux utilisant mate-desktop et gdm cela risque de faire bugger votre système d'exploitation.
+    N'utilisez pas ce script, si vous n'êtes pas sous Archlinux utilisant mate-desktop et gdm,
+    cela risque de faire bugger votre système d'exploitation.
 ```
 
 ```text
