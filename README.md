@@ -57,5 +57,5 @@ chmod +x install.sh
 ```
 
 ```text
-    Se script va nettoyer les fichiers et redemarrer votre ordinateur à la fin de sont installation.
+    Ce script va nettoyer les fichiers et redémarrer votre ordinateur à la fin de son installation.
 ```
